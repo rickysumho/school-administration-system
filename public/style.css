@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.input {
+  width: 50%;
+}
+
+.card {
+  margin: 50px;
+}
+
+.input-container {
+  margin: auto;
+  width: 50%;
+}
+
+.control {
+  margin: auto;
+  width: 50%;
+}
