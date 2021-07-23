@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="/style.css" />
 
     <!-- Import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <script src="index.js" defer></script>
 
   </head>
 
@@ -85,12 +85,12 @@
     
     <div>
       <div class="control">
-        <button class="button is-primary" style="text-align: center">Find</button>
+        <button id="find-btn" class="button is-primary" style="text-align: center" onclick="displayPerson()">Find</button>
       </div>
     </div>
     
     <!-- This is where the person's information is displayed -->
-    <div class="card">
+    <div class="card hidden" id="card-container">
   <div class="card-image">
     <figure class="image is-4by3">
       <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
@@ -99,9 +99,6 @@
   <div class="card-content">
     <div class="media">
       <div class="media-left">
-        <figure class="image is-48x48">
-          <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-        </figure>
       </div>
       <div class="media-content">
         <p class="title is-4">John Smith</p>
